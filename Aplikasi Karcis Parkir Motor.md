@@ -1,23 +1,23 @@
-# A. Aplikasi Karcis Parkir Motor
+# Aplikasi Karcis Parkir Motor
 Aplikasi Karcis parkir Motor ini merupakan aplikasi pendataan yang terdiri dari tambah data, hapus data, tampilan data dan keluar program.
 
-## B. Features Aplikasi Karcis Parkir Motor
+## A. Features Aplikasi Karcis Parkir Motor
 
 - Menambahkan nomor antrian karcis motor.
 - Menghapus nomor antrian karcis motor.
 - Menampilkan nomor plat motor yang. terparkir.
 - Keluar dari program aplikasi.
 
-## C. Cara Kerja Program
+## B. Cara Kerja Program
 Pada program ini saya menggunakan single linked list dengan tema antrian karcis motor menggunakan konsep dasar linked list, yaitu menghubungkan satu node dengan node lainnya melalui pointer. Pada program ini, setiap node merepresentasikan satu kendaraan yang masuk ke dalam antrian karcis motor.
 
-## D. Fungsionalitas Program
+## C. Fungsionalitas Program
 Program ini berfungsi untuk mendata dengan menambahkan nomor antrian karcis setiap terdapat motor yang ingin masuk kedalam parkiran. Jika motor tersebut ingin keluar dari parkiran maka data nomor antrian akan dihapus agar penjaga mengetahui bahwa kendaraan tersebut sudah tidak terparkir di dalam area parkiran motor. Program ini juga dapat menampilkan nomor plat motor yang masih terparkir didalam area parkiran agar memudahkan petugar parkir dalam mengetahui berapakah motor yang masih terparkir didalam area parkiran. Sehingga dengan adanya program ini dapat memudahkan petugas parkir dalam melakukan pekerjaannya.
 
-## E. Cara Kerja Aplikasi
+## D. Cara Kerja Aplikasi
 Aplikasi bekerja dengan mendata plat motor yang masuk lalu disimpan datanya dan, jika motor tersebut ingin keluar dari area parkiran maka data dari motor tersebut akan dihapus yang dimana dapat dijadikan sebgai bukti bahwa kendaraan tersebut sudah tidak terparkir di dalam area parkir jika terjadi sebuah hal yang tidak diinginkan, aplikasi juga dapat menampilkan nomor plat motor yang masih terparkir didalam area parkir.
 
-## F. Output Program
+## E. Output Program
 Output dari program ini akan menampilkan tampilan menu aplikasi karcis parkir motor yang dimana didalam menu tersebut terdapat 4 atribut sebagai berikut:
 1.	menambahkan nomor antrian karcis motor, 
 2.	menghapus nomor antrian karcis motor,
@@ -32,7 +32,7 @@ Output dari program ini akan menampilkan tampilan menu aplikasi karcis parkir mo
 
 - Jika pilihan adalah 4 maka akan menampilkan tampilan “Terima Kasih Telah Menggunkan Aplikasi Kami.” Yang berarti telah keluar dari aplikasi.
 
-## G. Penjelasan Elemen yang digunakan Pada Program
+## F. Penjelasan Elemen yang digunakan Pada Program
 •	Class Node adalah sebuah class untuk merepresentasikan node dalam linked list. Setiap node memiliki dua atribut yaitu data untuk menyimpan data kendaraan, dan next untuk menyimpan pointer ke node berikutnya.
 
 •	Class LnkdList adalah sebuah class untuk merepresentasikan linked list. Setiap linked list memiliki sebuah atribut yaitu head untuk menyimpan node pertama (head node).
@@ -46,5 +46,3 @@ Output dari program ini akan menampilkan tampilan menu aplikasi karcis parkir mo
 •	Def show adalah sebuah method untuk menampilkan nomor plat motor yang masih terparkir.
 
 •	Def display adalah sebuah method yang digunakan untuk menampilkan semua elemen yang terdapat pada linked list secara berurutan, dimulai dari elemen pertama hingga elemen terakhir. Fungsi ini biasanya digunakan untuk memeriksa isi linked list dan memastikan bahwa setiap elemen terhubung dengan benar.
-
-
