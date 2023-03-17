@@ -1,3 +1,10 @@
+## Biodata Penulis
+Nama: Joviana Young
+NIM : 2209116012
+Prodi : Sistem Informasi A-22
+
+# POSTTEST3 ASD
+
 # Aplikasi Karcis Parkir Motor
 Aplikasi Karcis parkir Motor ini merupakan aplikasi pendataan yang terdiri dari tambah data, hapus data, tampilan data dan keluar program.
 
